@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitLife Premium Gym</title>
+    
+    <!-- Google Fonts: Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Stripe -->
+    <script src="https://js.stripe.com/v3/"></script>
+    
+    <style>
+      /* Global CSS Reset for a seamless look */
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body { font-family: 'Poppins', sans-serif; background-color: #f8f9fa; color: #333; }
+      .nav-link { transition: color 0.3s ease; }
+      .nav-link:hover { color: #f39c12 !important; }
+      .card-hover { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+      .card-hover:hover { transform: translateY(-10px) scale(1.02) !important; box-shadow: 0 20px 40px rgba(0,0,0,0.2) !important; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
